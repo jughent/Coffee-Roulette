@@ -10,7 +10,7 @@ namesListFileName = sys.argv[1]
 #  comma seperated - names start on 2nd row
 coffeeRoueletteOldList = sys.argv[2]
 
-numberOfWeeksToGenerate = 22
+numberOfWeeksToGenerate = sys.argv[3]
 
 
 def setupNamesWithPotentialMatches():
