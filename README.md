@@ -36,7 +36,7 @@ There are two (.csv) files in which you will need (listed below). You need to sa
 
 
 ## Running the program
-1. Run the following in your terminal to generate a list of unique pairings
+-  Run the following in your terminal to generate a list of unique pairings
 
    **NOTE**: Ensure you follow this order when running the command:
    python3 [./python script] [.csv file containing List of names] [.csv file containing List of old pairs] [no. of weeks you want to generate]
