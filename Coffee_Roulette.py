@@ -1,13 +1,14 @@
 import csv
 from collections import OrderedDict
 import random
+import sys
 
 # List of people's names - 1 column - 1 name per line - names start on 2nd row
-namesListFileName = "NamesList.csv"
+namesListFileName = sys.argv[1]
 
 #  List of historical matches - 2 columns - 1 name per column - 
 #  comma seperated - names start on 2nd row
-coffeeRoueletteOldList = "CR_Old_Pairs.csv"
+coffeeRoueletteOldList = sys.argv[2]
 
 numberOfWeeksToGenerate = 22
 
